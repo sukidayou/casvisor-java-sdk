@@ -1,4 +1,4 @@
-name: Build casdoor-java-sdk
+name: Build casvisor-java-sdk
 
 on: [push, pull_request]
 

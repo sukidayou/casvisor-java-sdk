@@ -40,19 +40,19 @@
 
     <build>
         <plugins>
-<!--            <plugin>-->
-<!--                &lt;!&ndash; Automatically close and deploy from OSSRH &ndash;&gt;-->
-<!--                <groupId>org.sonatype.central</groupId>-->
-<!--                <artifactId>central-publishing-maven-plugin</artifactId>-->
-<!--                <version>0.6.0</version>-->
-<!--                <extensions>true</extensions>-->
-<!--                <configuration>-->
-<!--                    <publishingServerId>ossrh</publishingServerId>-->
-<!--                    <tokenAuth>true</tokenAuth>-->
-<!--                    &lt;!&ndash; Release versions will be synced to Maven Central automatically. &ndash;&gt;-->
-<!--                    <autoPublish>true</autoPublish>-->
-<!--                </configuration>-->
-<!--            </plugin>-->
+            <plugin>
+                <!-- Automatically close and deploy from OSSRH -->
+                <groupId>org.sonatype.central</groupId>
+                <artifactId>central-publishing-maven-plugin</artifactId>
+                <version>0.6.0</version>
+                <extensions>true</extensions>
+                <configuration>
+                    <publishingServerId>ossrh</publishingServerId>
+                    <tokenAuth>true</tokenAuth>
+                    <!-- Release versions will be synced to Maven Central automatically. -->
+                    <autoPublish>true</autoPublish>
+                </configuration>
+            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-source-plugin</artifactId>
